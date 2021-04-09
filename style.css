@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kiwi Maru', serif
+
+}
+
+body{
+    background-color: #E9ECEF;
+}
+
+
+header{
+    background-image: url(img/1.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    height: 15rem;    
+    width: 100%;
+}
+
+
+.box-title{
+    display: flex;
+    height: 5rem;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box-nav{
+    width: 40%;
+
+}
+
+.box-ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    height: 5rem;
+    font-size: 1.5rem;
+    
+}
+
+li:hover{
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #6c757d;
+    cursor: pointer;
+    text-decoration: underline;
+    transition-duration: 1s;  
+        
+    }
+
+    /* FIM DA HEADER */
+
+
+    .box-main{  
+        height: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1%;
+        font-style: italic;
+    }
+
+    .img-main{
+        width: 35%;
+        
+    }
+
+    .box-carros{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1%;
+        font-style: italic;
+    }
+
+    .carros-modelos{
+        width: 40%;
+    }
+
+
+    .box-paragraph{
+        display: flex;
+        flex-direction: column;
+        margin:1%
+        
+    }
+
+    /* FIM DA MAIN  */
+
+    .box-footer{
+        text-align: center;
+        background-color: #343a40;
+             
+        
+    }
+
+    .rede-social{
+        width: 2%;
+        margin: 0.5%;
+        cursor: pointer;
+    }
+
+
+    .direitos{
+        font-size: 80%;
+        text-align: center;
+        background-color: #343a40;
+    }
+
