@@ -114,3 +114,16 @@ li:hover{
         background-color: #343a40;
     }
 
+
+    @media (max-width: 950px){
+        .box-title {
+            width: 100%;
+            align-items: center;
+        }
+
+        .box-nav{
+            width: 90%;
+            color:#ffffff;
+            display: contents;
+        }
+    }
