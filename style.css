@@ -41,13 +41,18 @@ header{
     list-style: none;
     justify-content: space-evenly;
     height: 5rem;
-    font-size: 1.5rem;
+    font-size: 22px;
     
+}
+
+li{
+    width: 4vw;
+    margin-left: 4vw;    
 }
 
 li:hover{
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 24px;
     color: #6c757d;
     cursor: pointer;
     text-decoration: underline;
@@ -105,8 +110,8 @@ li:hover{
         width: 2%;
         margin: 0.5%;
         cursor: pointer;
+    
     }
-
 
     .direitos{
         font-size: 80%;
